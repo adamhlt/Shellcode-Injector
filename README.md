@@ -36,3 +36,11 @@ Program contains a test shellcode (MessageBoxA x64 shellcode).
 2. Build the project in Release (x86 or x64)
 
 ## :test_tube: Demonstration :
+
+**Local injection from memory**
+
+[Demo](https://github.com/adamhlt/Shellcode-Injector/assets/48086737/431ffa6c-4bae-4c8e-9f38-8157a71abff1)
+
+**Remote injection from file**
+
+[Demo](https://github.com/adamhlt/Shellcode-Injector/assets/48086737/1c862a55-0458-4c10-821c-8b37e8be0683)
