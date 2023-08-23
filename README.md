@@ -10,3 +10,33 @@
                            Local / Remote Shellcode Injector (x86 / x64)
                         Shellcode Injector for test and debugging purposes
 ```
+<p align="center">
+    <img src="https://img.shields.io/badge/language-C%2B%2B-%23f34b7d.svg?style=for-the-badge&logo=appveyor" alt="C++">
+    <img src="https://img.shields.io/badge/platform-Windows-0078d7.svg?style=for-the-badge&logo=appveyor" alt="Windows">
+    <img src="https://img.shields.io/badge/arch-x86-red.svg?style=for-the-badge&logo=appveyor" alt="x86">
+    <img src="https://img.shields.io/badge/arch-x64-green.svg?style=for-the-badge&logo=appveyor" alt="x64">
+</p>
+
+## :open_book: Project Overview :
+
+Local / Remote Shellcode injector written in C++, works on x86 and x64.
+
+Program contains a test shellcode (MessageBoxA x64 shellcode).
+
+#### Features :
+
+- Inject shellcode into local process from memory
+- Inject shellcode into local process from file
+- Inject shellcode into remote process from memory
+- Inject shellcode into remote process from file
+
+### Visual Studio :
+
+1. Open the solution file (.sln).
+2. Build the project in Release (x86 or x64)
+
+Every configuration in x86 / x64 (Debug and Realese) are already configured with librairies and includes.
+
+## :test_tube: Demonstration :
+
+[Demo](https://github.com/adamhlt/D3D11-Hook-ImGui/assets/48086737/5c6cf425-6758-4773-aa1c-9ce4b1c8b41d)
