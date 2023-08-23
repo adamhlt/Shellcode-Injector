@@ -35,8 +35,6 @@ Program contains a test shellcode (MessageBoxA x64 shellcode).
 1. Open the solution file (.sln).
 2. Build the project in Release (x86 or x64)
 
-Every configuration in x86 / x64 (Debug and Realese) are already configured with librairies and includes.
-
 ## :test_tube: Demonstration :
 
 [Demo](https://github.com/adamhlt/D3D11-Hook-ImGui/assets/48086737/5c6cf425-6758-4773-aa1c-9ce4b1c8b41d)
